@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <style>
+        body{
+            background-color: gold;
+        }
+        h1{
+            text-align: center;
+        }
+        div{
+            margin-top: 20%;
+            text-align: center;
+        }
+        div input{
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>
+        BMI CALCULATOR
+    </h1>
+
+    <h3>
+        Adult men and women can use the body mass index (BMI),
+        a measurement of body fat based on height and weight.
+        View the BMI tables or calculate yours using the 
+        calculator below.
+        <ul>
+            <li>
+                Use standard or metric figures to enter 
+                your height and weight.
+            </li>
+            <li>
+                When you choose "Compute BMI," your BMI will 
+                be displayed below.
+            </li>
+        </ul>
+    </h3>
+
+    <div>
+        <form action="/" method="post">
+            <input type="text" name="weight" placeholder="Enter weight (kg)">
+            <input type="text" name="height" placeholder="Enter height (meter">
+            <button type="submit" name="calculate">Calculate</button>
+        </form>
+    </div>
+
+</body>
+</html>
